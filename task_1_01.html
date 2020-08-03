@@ -105,7 +105,37 @@
         <div>
             <h1>这里以后是个侧栏</h1>
             <h1>侧栏注册窗口标题</h1>
+            <form>
+                <label>输入邮箱：<input type="email" /></label>
+                <p>邮箱地址请按格式输入</p>
+                <label>输入密码：<input type="text" />重复输入密码：<input type="text" /></label>
+                <p>密码请为6-16位英文数字</p>
+
+                <label>性别：
+                    <input type="radio" value="man" checked/>男
+                    <input type="radio" value="women"/>女
+                </label>
+                <label>城市：</label>
+                <select>
+                    <option>--请选择城市--</option>
+                    <option>北京</option>
+                    <option>上海</option>
+                    <option>广州</option>
+                </select>
+            </br>
+                <label>爱好：</label>
+                <input type="checkbox" value="sports"/>运动
+                <input type="checkbox" value="arts"/>艺术
+                <input type="checkbox" value="science" checked />科学
+            </br>
+                <label>个人描述：</label>
+                <textarea placeholder="请一句话对自己进行描述" rows="5" cols="60"></textarea>
+
+                <button>确认提交</button>
+            </form>
         </div>
+
+
     </main>
 
 
