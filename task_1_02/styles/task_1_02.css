@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header footer样式 */
+header, footer{
+    height: 60px;
+    background-color: turquoise;
+}
+
+#logo{
+    height: 60px;
+}
+
+#nav-right{
+    float: right;
+    list-style: none;
+}
+
+#nav-right li{
+    float: left;
+    padding: 0px 5px;
+    height: 60px;
+}
+
+#nav-right a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+}
+
+#nav-right li:hover{
+    background-color: white;
+}
+#nav-right a:hover{
+    color: turquoise;
+}
+/* 怎么整合hover效果？ */
+
+/* 主体样式 */
+
