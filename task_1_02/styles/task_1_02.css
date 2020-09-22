@@ -52,3 +52,6 @@ header, footer{
     padding: 10px;
     margin: 15px 0;
 }
+.list{
+    list-style: none;
+}
