@@ -55,3 +55,57 @@ header, footer{
 .list{
     list-style: none;
 }
+
+.listobj{
+    margin:  20px 25px;
+}
+/*         表格            */
+.prizetab{
+    width:100%;
+    border-collapse: collapse;/*边框*/
+    border:1px solid grey;
+
+    margin: 10px 5px;
+    text-align: left;
+}
+.prizetab tr{
+    height: 30px;
+}
+.prizetab th{
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    
+}
+.prizetab td{
+    border: 1px solid grey;
+}
+.prizetab a{
+    text-decoration: none;
+}
+
+
+/*         侧栏            */
+aside h2{
+    border-left:5px solid grey;
+}
+.sub{
+    width: 550px;
+    margin: 5px auto;
+}
+.sub p{
+    margin: 5px 0;
+}
+.notice{
+    color: rgb(190, 190, 190);
+}
+#introduction_tip{
+    float: left;
+    text-align: right;
+}
+.sub .btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: rgb(238, 238, 238);
+}
